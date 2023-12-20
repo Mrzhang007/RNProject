@@ -8,7 +8,7 @@ export function Home() {
     <View style={{ flex: 1, backgroundColor: '#fff' }}>
       <Text>hello world</Text>
       <Button
-        title="Profile"
+        title="View Profile"
         onPress={() => {
           navigation.navigate('Profile' as never);
         }}></Button>
